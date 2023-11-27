@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Rale;
+    src: url('../fonts/RaleGrotesk-Medium.woff2');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+}
+
+.container {
+    background-image:
+    linear-gradient(to bottom, rgba(78, 78, 78, 0.52), rgba(0, 0, 0, 0.815)),
+    url('https://images.unsplash.com/photo-1683009427660-b38dea9e8488?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.over-grid-y {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 150;
+    opacity: 0.2;
+    background-size: 500px 500px;
+    background-image: repeating-linear-gradient(to right, #ffffff, #ffffff 1px, #e5e5f700 1px, #e5e5f700);
+    background-position: center center;
+}
+
+.over-grid-x {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 151;
+    opacity: 0.2;
+    background-size: 700px 700px;
+    background-image:  repeating-linear-gradient(0deg, #ffffff, #ffffff 1px, #e5e5f700 1px, #e5e5f700);
+    background-position: center center;
+}
+
+header nav ul   {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+}
+
+.nav-sp ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap : 1rem;
+    margin-top: 10px
+}
+
+.nav-sp ul li a {
+    font-family: 'Rale', sans-serif;
+    color: #ffffff;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+
+
